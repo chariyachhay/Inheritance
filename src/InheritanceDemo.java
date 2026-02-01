@@ -24,6 +24,6 @@ public class InheritanceDemo
         workers.add(s2);
         workers.add(s3);
 
-        System.out.println("Workers create successfully.");
+        System.out.println("Workers created successfully.");
     }
 }
