@@ -22,7 +22,7 @@ public class InheritanceDemo {
         workers.add(s2);
         workers.add(s3);
 
-        double[] hoursWorkedPerWeek = {40, 45, 40};
+        double[] hoursWorkedPerWeek = {40, 50, 40};
 
         for (int week = 0; week < 3; week++) {
             System.out.println("\nWeek " + (week + 1));
