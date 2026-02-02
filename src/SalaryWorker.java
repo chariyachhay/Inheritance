@@ -16,8 +16,7 @@ public class SalaryWorker extends Worker
     public double calculateWeeklyPay(double hoursWorked)
     {
         // hoursWorked is not used but kept for polymorphism
-        double weeklyPay = annualSalary / 52.0;
-        return weeklyPay;
+        return annualSalary / 52.0;
     }
 
     // override displayWeeklyPay
@@ -46,7 +45,6 @@ public class SalaryWorker extends Worker
                 "\"lastName\": \"" + getLastName() + "\", " +
                 "\"title\": \"" + getTitle() + "\", " +
                 "\"YOB\": " + getYOB() + ", " +
-                "\"hourlyPayRate\": " + calculateWeeklyPay(0) + ", " +
                 "\"annualSalary\": " + annualSalary + " }";
     }
 
